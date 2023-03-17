@@ -13,3 +13,4 @@ const response = await openai.createCompletion({
 console.log(response.data["choices"][0]["text"]);
 }
 func();
+//test
