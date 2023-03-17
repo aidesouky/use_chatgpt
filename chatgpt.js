@@ -1,7 +1,7 @@
 async function func(){
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "sk-<OpenAI-API-Key>",
 });
 const openai = new OpenAIApi(configuration);
 const response = await openai.createCompletion({

@@ -1,7 +1,7 @@
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 var xhr = new XMLHttpRequest();
 //openai api token
-var apiKey= "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";
+var apiKey= "<OpenAI-API-Key>";
 xhr.open("POST", "https://api.openai.com/v1/completions");
 xhr.setRequestHeader("Content-Type", "application/json");
 xhr.setRequestHeader("Authorization", "Bearer "+apiKey);
