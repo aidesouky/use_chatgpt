@@ -6,6 +6,7 @@ xhr.open("POST", "https://api.openai.com/v1/completions");
 xhr.setRequestHeader("Content-Type", "application/json");
 xhr.setRequestHeader("Authorization", "Bearer "+apiKey);
 var vprompt = "write code to send http request in c++";
+//this parameters defined by OpenAI
 var body = JSON.stringify({
     "model":"text-davinci-003",
     "prompt":vprompt,
